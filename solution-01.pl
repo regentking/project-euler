@@ -11,15 +11,16 @@ use strict;
     my( $counter );
     my( $sum );
     
+        
+    print("The sum of natural numbers below 10 that are multiples of 3 & 5 is 23.\n");
+        
     ($sum, $counter) = (0, 0);
     while ($counter < 1001)
     {
         
         # Outline the problem
         # 3 + 5 + 6 + 9 = 23
-        
-        print("The sum of natural numbers below 10 that are multiples of 3 & 5 is 23.\n");
-        
+        printf("$counter");
         if ($counter % 3 == 0)
         {
             $sum += $counter;
