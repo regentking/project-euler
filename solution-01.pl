@@ -28,5 +28,6 @@ use strict;
         {
             $sum += $counter;
         }
+        $counter++;
     }
     print("The sum of natural numbers below 10 that are multiples of 3 & 5 is $sum.\n");
