@@ -24,7 +24,7 @@ use strict;
         {
             $sum += $counter;
         }
-        elseif ($counter % 5 == 0)
+        elsif ($counter % 5 == 0)
         {
             $sum += $counter;
         }
